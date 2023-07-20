@@ -1,4 +1,4 @@
-package com.bikkadit.electronic.store;
+package com.bikkadit.electronic.store.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
