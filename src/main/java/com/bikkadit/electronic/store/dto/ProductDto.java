@@ -1,5 +1,7 @@
 package com.bikkadit.electronic.store.dto;
 
+import com.bikkadit.electronic.store.entity.Category;
+import com.bikkadit.electronic.store.validate.ImageNameValid;
 import lombok.*;
 
 import javax.persistence.Column;
@@ -31,5 +33,8 @@ public class ProductDto {
 
     private boolean stock;
 
+    @ImageNameValid
     private  String productImage;
+
+    private CategoryDto category;
 }
